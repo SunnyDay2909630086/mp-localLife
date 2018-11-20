@@ -1,0 +1,18 @@
+<!--component/shop/shop.wxml-->
+<view class="cell">
+  <!-- 图片 -->
+  <view class="imageView">
+    <image src="{{shop.images[0]}}" />
+  </view>
+  <!-- 内容描述 -->
+  <view class="meta">
+    <text class="name">{{shop.name}}</text>
+    <text class="phone">电话：{{shop.phone}}</text>
+    <text class="address">地址：{{shop.address}}</text>
+    <text class="time">营业时间：{{shop.businessHours}}</text>
+  </view>
+  <!-- 评分 -->
+  <view class="score">
+    {{shop.score}}
+  </view>
+</view>
