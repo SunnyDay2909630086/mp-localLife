@@ -19,7 +19,7 @@
   </view>
 <!-- 友情链接-->
   <view class="friends">
-    <image class="left" src="/assets/link-01.png"></image>
+    <image class="left1" src="/assets/link-01.png"></image>
     <image class="right" src="/assets/link-02.png"></image>
   </view>
 </view>
